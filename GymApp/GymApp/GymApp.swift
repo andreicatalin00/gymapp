@@ -1,5 +1,5 @@
 //
-//  GymAppApp.swift
+//  GymApp.swift
 //  GymApp
 //
 //  Created by Catalin Militarescu on 23.03.2026.
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct GymAppApp: App {
+struct GymApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
